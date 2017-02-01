@@ -10,4 +10,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="luv.linux.crv.WorldActivity">
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
+
 </RelativeLayout>
